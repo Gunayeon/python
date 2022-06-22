@@ -77,3 +77,13 @@ def print_sum2(a,b,c):
 print_sum(7,3)
 print_sum2(7,3,2)
 ```
+## return문
+```
+def get_square(x):
+    return x*x # 파라미터에서 3을 받고 3*3=9를 돌려줌
+
+# print(get_square(3))
+#y=get_square(3)
+#print(y)
+print(get_square(3)+get_square(4))
+``
