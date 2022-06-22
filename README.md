@@ -58,3 +58,12 @@ hello() # hello 함수 호출
 hello()
 hello()
 ```
+ ## 파라미터
+```
+def hello(name):  #name:파라미터
+    print("Hello!")
+    print(name)
+    print("Welcome to Python!");
+
+hello("Chris")
+```
