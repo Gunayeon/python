@@ -48,3 +48,13 @@ ex) 햄버거가게 메뉴
  print(burger_price+fries_price) #버거 1개, 감튀 1개 출력
  print(burger_price*3+fries_price*2+drink_price*5) #버거 3개, 감튀 2개, 음료 5잔
  ```
+ ## 함수
+ ```
+ def hello():  #def:새로운 함수 정의, hello:함수의 이름/ 함수의 첫 줄:함수의 헤더
+    print("Hello!");
+    print("Welcome to Python!")
+
+hello() # hello 함수 호출
+hello()
+hello()
+```
