@@ -67,3 +67,13 @@ def hello(name):  #name:파라미터
 
 hello("Chris")
 ```
+여러개의 파라미터
+```
+def print_sum(a, b): # 파라미터의 이름은 임의로 지정가능
+    print(a+b)
+
+def print_sum2(a,b,c):
+    print(a+b+c)
+print_sum(7,3)
+print_sum2(7,3,2)
+```
